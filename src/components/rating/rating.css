@@ -1,0 +1,33 @@
+.rating {
+    display: flex;
+    flex-direction: row;
+    max-width: 400px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--primary-color);
+    font-size: smaller;
+    cursor: pointer;
+}
+
+
+.rating__text {
+    max-width: 330px;
+}
+
+.rating__img img {
+    max-width: 50px;
+}
+
+@media (max-width: 500px) {
+    .rating {
+        font-size: 9px;
+    }
+    .rating__text {
+        max-width: 200px;
+    }
+    
+    .rating__img img {
+        max-width: 40px;
+    }
+    
+}

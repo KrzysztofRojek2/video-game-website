@@ -1,0 +1,20 @@
+.information-card {
+    background-color: var(--light-gray);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.information-card > * {
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+@media (max-width: 500px) {
+    .information-card > * {
+        flex-direction: column;
+    }
+    
+}

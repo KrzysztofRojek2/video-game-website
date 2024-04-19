@@ -1,0 +1,25 @@
+.informations-section {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--primary-color);
+    gap: 2rem;
+    justify-content: center;
+    width: 100%;
+}
+
+.informations-section > * {
+    width: 550px;
+}
+
+@media (max-width: 1000px) {
+    .informations-section {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 600px) {
+    .informations-section > * {
+        width: 100%;
+    }
+}

@@ -1,0 +1,23 @@
+
+.suggestions__header {
+    margin-bottom: 2rem;
+}
+
+.suggestion__rights-reserved-info {
+    margin-top: 2rem;
+    color: var(--dark-gray);
+}
+
+@media (max-width: 800px) {
+    .suggestion__rights-reserved-info p{
+        font-size: 0.8rem;
+    }
+    
+}
+
+@media (max-width: 400px) {
+    .suggestion__rights-reserved-info p{
+        font-size: 0.6rem;
+    }
+    
+}

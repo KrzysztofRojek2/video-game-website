@@ -1,0 +1,19 @@
+.btn {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    border: none;
+    border-radius: 5px;
+    font-size: larger;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    width: fit-content;
+}
+
+.btn:hover {
+   filter: brightness(0.8);
+}
+
+.btn:hover p {
+    filter: brightness(1);
+}
